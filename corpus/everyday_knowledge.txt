@@ -1,0 +1,79 @@
+A key is used to open a lock .
+We use a key to open a lock .
+A locked door can be opened with a key .
+
+Scissors are used to cut paper .
+We use scissors to cut paper .
+Paper can be cut with scissors .
+
+A clock shows the time .
+We look at a clock to know the time .
+A clock tells us what time it is .
+
+Birds fly using their wings .
+A bird uses its wings to fly .
+Wings help a bird fly through the sky .
+
+Fish swim in the water .
+A fish uses its fins to swim .
+Fish live and swim in the water .
+
+The sun rises in the morning .
+Every morning the sun rises in the sky .
+The morning begins when the sun rises .
+
+The moon appears in the sky at night .
+At night we can see the moon .
+The moon shines in the night sky .
+
+A blanket keeps a person warm .
+We use a blanket to stay warm at night .
+Wrapping in a blanket keeps a person warm .
+
+Soap is used to wash hands .
+We use soap to clean our hands .
+Washing hands with soap removes dirt .
+
+A toothbrush is used to clean teeth .
+We use a toothbrush to brush our teeth .
+Brushing with a toothbrush keeps teeth clean .
+
+Bees make honey in their hive .
+Honey is made by bees .
+A bee collects nectar to make honey .
+
+Cows give milk on the farm .
+Farmers get milk from cows .
+Milk comes from cows on the farm .
+
+A refrigerator keeps food cold .
+We store food in the refrigerator to keep it fresh .
+Cold food is kept in the refrigerator .
+
+An oven is used to bake food .
+We bake bread in the oven .
+The oven heats food while it bakes .
+
+Rain falls from clouds in the sky .
+Clouds bring rain during a storm .
+When it rains , water falls from the clouds .
+
+A doctor helps sick people get better .
+When someone is sick , a doctor can help .
+A doctor treats patients who are sick .
+
+A teacher helps students learn new things .
+Students go to school to learn from a teacher .
+A good teacher explains lessons clearly .
+
+Shoes are worn on the feet .
+We wear shoes to protect our feet .
+People put on shoes before walking outside .
+
+A hat is worn on the head .
+We wear a hat to protect our head from the sun .
+People often wear a hat outdoors .
+
+Trees grow from small seeds .
+A seed can grow into a tall tree .
+Planting a seed can grow into a tree over time .
