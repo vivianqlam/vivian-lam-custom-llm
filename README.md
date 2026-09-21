@@ -330,26 +330,21 @@ tool, not a multi-turn assistant, and it never updates the model's weights.
 `5a02a4404c79c83e17f7c6ba4210558ffb20c09f4eb4c1d9a886ee3d31db66d6`), 3,000
 completed training steps, 48-token context window, temperature 0.8.
 
-**Saved transcript** ([chat_transcript.json](chat_transcript.json)), 4 real interactions:
+**Saved transcript** ([results/live_demo_chat.json](results/live_demo_chat.json)), 5 real interactions, typed live by me in a terminal (screenshot below):
 
 | Prompt | Response | Note |
 |---|---|---|
 | "the customer" | "reviewed the brand after checking the price ." | Coherent, on-corpus |
-| "the opposite of big is" | "treatment ." | Learned the *frame* but picked an unrelated word — a real failure |
-| "a key is used to" | "open a lock ." | Correct completion, directly from the extension corpus |
+| "the key is used to" | "treatment it the doctor and health ." | **Failure** — ungrammatical word salad, even though every word is in-vocabulary. My extension corpus only ever says "**a** key is used to...", never "**the** key is used to..."; that one-word phrasing change was apparently enough to push the model off the narrow pattern it actually learned. |
+| "the opposite of big is" | "hands ." | Learned the *frame* but picked an unrelated word — a partial failure |
 | "the opposite of hot is" | "compared the if ." | **Limitation**: "hot" is flagged `Unknown words: hot` — out of vocabulary, so the model substitutes `<UNK>` and produces an unrelated continuation |
+| "a person uses an umbrella to stay" | "." (empty) | **Limitation**: "umbrella" is out of vocabulary; the model gives up almost immediately |
 
-**Screenshot/recording:** *(TODO — add a screenshot of your terminal running the
-launch command above; this session ran it live in the terminal panel but did not
-save an image file. Take one with the exact launch command and drop it in this
-repo, e.g. `docs/chat_screenshot.png`, then link it here.)*
+![chat interface screenshot](docs/chat_screenshot.png)
 
-**One observed limitation:** the interface will silently generate *something*
-even for words it has never seen (via `<UNK>`), rather than refusing or asking
-for clarification — a user unfamiliar with the model could easily mistake a
-vocabulary gap for a reasoning failure. The interface does print `Unknown
-words: ...` when this happens, so it's detectable, but only if you're looking
-for it.
+**Two observed limitations, from real evidence above:**
+1. **Vocabulary gaps fail silently but are labeled.** For never-seen words ("hot", "umbrella") the model doesn't refuse or flag the input as invalid — it substitutes `<UNK>` internally and keeps generating something, which could easily be mistaken for a reasoning failure rather than a vocabulary one if you weren't reading the `Unknown words: ...` line the interface prints.
+2. **The model is far more brittle to exact phrasing than "understanding a pattern" would suggest.** Swapping "a key" for "the key" — a change with no meaningful difference to a person — produced completely incoherent output ("treatment it the doctor and health ."), while the trained phrasing produces a clean completion. This is strong evidence the model memorized a fairly literal template rather than a general "object → its use" concept, which tempers how much credit the earlier `starter_transfer` improvement (4/8 → 7/8) should get for "generalization."
 
 ## What I learned
 

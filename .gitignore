@@ -8,4 +8,5 @@ names.txt
 !/corpus/opposites.txt
 !/corpus/everyday_knowledge.txt
 
-/results/
+/results/*
+!/results/live_demo_chat.json
