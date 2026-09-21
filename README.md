@@ -13,7 +13,7 @@ something impressive.
 
 Two experiments are included, both fully executed:
 - **[custom_llm.ipynb](custom_llm.ipynb)** — starter classroom corpus only
-- **[custom_llm_extended.ipynb](custom_llm_extended.ipynb)** — starter corpus + my own extension files in [`corpus/`](corpus/) (git-ignored by design; see [Corpus sources](#corpus-sources-and-permissions))
+- **[custom_llm_extended.ipynb](custom_llm_extended.ipynb)** — starter corpus + my own extension files in [`corpus/`](corpus/) (see [Corpus sources](#corpus-sources-and-permissions))
 
 Original project template/instructions: [ASSIGNMENT.md](ASSIGNMENT.md) · [pepealonso95/custom-llm](https://github.com/pepealonso95/custom-llm)
 
