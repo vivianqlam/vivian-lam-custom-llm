@@ -1,0 +1,40 @@
+{
+  "model": "llm_runs/20260921T193251_692468Z/model.pt",
+  "model_sha256": "5a02a4404c79c83e17f7c6ba4210558ffb20c09f4eb4c1d9a886ee3d31db66d6",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "reviewed the brand after checking the price .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of big is",
+      "seed": 2027,
+      "response": "treatment .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "a key is used to",
+      "seed": 2028,
+      "response": "open a lock .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the opposite of hot is",
+      "seed": 2029,
+      "response": "compared the if .",
+      "unknown_prompt_words": [
+        "hot"
+      ],
+      "prompt_truncated": false
+    }
+  ]
+}
