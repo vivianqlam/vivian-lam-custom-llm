@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "file": "everyday_knowledge.txt",
+      "bytes": 2187,
+      "sha256": "911513c0720c5eb293d77646ce8e5ba4ff5a855c7164d8b4ec9e898fb413a85d",
+      "warnings": [],
+      "characters": 2187,
+      "passages": 60,
+      "unique_passages": 60,
+      "preview": "A key is used to open a lock .\nWe use a key to open a lock .\nA locked door can be opened with a key .\n\nScissors are used to cut paper .\nWe use scissors to cut paper .\nPaper can be cut with scissors .\n\nA clock shows the time .\nWe look at a clock to know the time .\nA clock tells us what time it is .\n\n"
+    },
+    {
+      "file": "opposites.txt",
+      "bytes": 2082,
+      "sha256": "c51f7541dd5119fbbea2631c1c65749b1f9cc8f3c0c567dd0f31de1ea8cf3a4f",
+      "warnings": [],
+      "characters": 2082,
+      "passages": 60,
+      "unique_passages": 60,
+      "preview": "The opposite of big is small .\nThe opposite of small is big .\nBig and small are opposites .\nIf a thing is big , it is not small .\nIf a thing is small , it is not big .\n\nThe opposite of fast is slow .\nThe opposite of slow is fast .\nFast and slow are opposites .\nIf a thing is fast , it is not slow .\nI"
+    }
+  ],
+  "ignored": [],
+  "external_passages": 120,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 4712,
+  "new_unique_passages": 120,
+  "duplicates_removed": 1608,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}
